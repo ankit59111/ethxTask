@@ -1,0 +1,102 @@
+.App{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+aside{
+  background: #242939;
+  color: #fff;
+  width: 300px;
+  height: 90vh;
+  padding-left: 15px;
+  overflow: hidden;
+  position: fixed;
+  top: 30px;
+  bottom: 30px;
+  left: 30px;
+  z-index: 98;
+
+}
+
+.asideTopBar{
+  display: flex;
+}
+aside .asideLogo{
+  border-bottom: 1px solid #2e3449;
+  margin-bottom: 15px;
+}
+aside .asideLogo img{
+  width: 75%;
+  height: 80px;
+  padding-left: 13px;
+}
+#profile{
+  align-self: center;
+  max-height: 38px;
+  border-radius: 50%;
+  margin-top: 21px;
+}
+.main-area ul li{
+  color: #c0c4d1;
+  list-style: none;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+section{
+ padding-left: 300px;
+}
+section header{
+  height: 65px;
+  background-color: #efeff5;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+section header .headerContainer{
+  padding: 0 25px;
+  padding-right: 15px!important;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerContainer form {
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin: 0 .5rem;
+}
+
+.headerContainer form input{
+  border: none;
+  line-height: 2.4;
+  border-radius: 22px;
+  padding-left: 25px;
+  outline: none;
+}
+
+.graphContainer{
+  width: 800px;
+}
+.graphContainer iframe{
+  border: none;
+}
+.graphContainer .card{
+  width: 100%;
+  height: auto;
+}
+
+.listContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+  width: 800px;
+}
+
+.listContainer .card {
+  margin: 15px;
+}
